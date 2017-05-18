@@ -9,20 +9,21 @@
 
 ##FUNN SKULL##
 #clear
-#cat /root/skulltest/1 
+#cat /root/skull/1    
 #sleep 0.3
 #clear
-#cat /root/skulltest/2
+#cat /root/skull/2
 #sleep 0.3
 #clear
-#cat /root/skulltest/3
+#cat /root/skull/3
 #sleep 0.3
 #clear
-#cat /root/skulltest/4
+#cat /root/skull/4
 #sleep 0.3
 #clear
-#cat /root/skulltest/5
+#cat /root/skull/5
 ## END SKULL ##
+
 
 red='\033[31m'
 green='\033[32m'
