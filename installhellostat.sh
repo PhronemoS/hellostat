@@ -6,7 +6,7 @@
 hellostat='/root/hellostat.sh'
 rm -f $hellostat
 sed -i '/\/root\/hellostat.sh/d' /root/.bashrc
-wget -O $hellostat - https://forum.vofs.com.ua/scripts/hellostat.sh
+wget -O $hellostat - https://raw.githubusercontent.com/PhronemoS/hellostat/master/hellostat.sh
 
 IspP='/usr/local/ispmgr/bin/ispmgr'
 CpanelP='/usr/local/cpanel/cpanel'
