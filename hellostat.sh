@@ -49,7 +49,7 @@ OS=`grep -Pwihs "($distrib)(.){0,} " /etc/{*release,*version} | sed -r 's/(.)+\=
 
 #Panel
 
-echo "Primary IP: `ifconfig | grep "inet addr" | head -n1 | awk -F: '{print $2}' | awk '{print $1}'`"
+echo "Primary IP: `wget -O - -q http://ipecho.net/ | grep "Your IP is" | awk -F"<" '{print $2}' | awk '{print $4}'`"
 
 ##########
 service_status () {
